@@ -1,0 +1,177 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Personal Portfolio
+        </title>
+        <link rel="stylesheet" href="stylelabthree.css">
+    </head>
+    <body>
+        <center>
+            <h1 style ="color: rgb(255, 255, 255); background-color: rgb(12, 190, 235)">
+                August James Oliva
+            </h1>
+        </center>
+        <h2> </h2>
+        <h3 style ="color:rgb(11, 190, 235)"> NJIT, ajo53, Architecture </h3>
+        <p style ="color:coral">
+            My name is August, but I go by Gus, and I am a second year transfer student studying architecture after <br>
+            transfering from the University at Buffalo after my freshman year where I was a finance major. I am from Staten <br>
+            Island, NY and I commute to NJIT each day. Outside of school I currently intern at an architecture firm two days <br>
+            a week where I have worked at since February of 2021 whenever I wasn't at college in Buffalo. For fun I enjoy playing <br>
+            sports such as basketball and football as well as watching my favorite sports teams, the Yankees, Steelers and Penguins. <br>
+            I also enjoy listening to music and practicing graphic design in my free time. <br>
+        </p>
+
+        <a href="https://www.njit.edu/">njit.edu</a> <br>
+        <img src="final model persepective 1.jpg" alt="sample text">
+        <div>
+            <table>
+
+                <tr style= "width: 50%; border: 1px solid black ;">
+                    <th colspan="2">Education</th>
+                    <th colspan="2">Experience</th>
+                    <th colspan="2">Skills</th>
+                </tr>
+                <tr style= "width: 50%; border: 1px solid black ;">
+                    <td colspan="2">John</td>
+                    <td colspan="2">John</td>
+                    <td colspan="2">John</td>
+                    
+                </tr>
+                <tr style= "width: 50%; border: 1px solid black ;"> 
+                    <td colspan="2">John</td>
+                    <td colspan="2">John</td>
+                    <td colspan="2">John</td>
+                </tr>
+            </table>
+        </div>
+        <div style="margin-top: 100px;">
+            <form>
+                <label for="Username">Username</label>
+                <input type="text" placeholder="Username"> <br>
+                <label for="First Name">First Name</label>
+                <input type="type" placeholder="First Name"> <br>
+                <label for="Last Name">Last Name</label>
+                <input type="type" placeholder="Last Name"> <br>
+                <label for="Email">Email</label>
+                <input type="type" placeholder="Email"> <br>
+
+                <br>
+    
+                <input type="checkbox"> Math <br>
+                <input type="checkbox"> Architecture <br>
+                <input type="checkbox"> Computer Science <br>
+
+                <br>
+
+                <input type="radio"> Math <br>
+                <input type="radio"> Architecture <br>
+                <input type="radio"> Computer <br>
+    
+            </form>
+        </div>
+
+        <div>
+            <ul>
+                <li><a href="#">ARCH 110</a></li>
+                <li><a href="#">ARCH 195</a></li>
+                <li><a href="#">ARCH 303</a></li>
+                <li><a href="#">CS 104</a></li>
+            </ul>
+        </div>
+        <br>
+        <input type="submit">
+        <div>
+            <img src="img1.png" class="img1" alt="Image 1">
+            <img src="img2.png" class="img2" alt="Image 2">
+            <img src="img3.png" class="img3" alt="Image 3">
+        </div>
+
+        <div class="dropdown">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown"> Dropdown Menu</button>
+            <ul class="dropdown-menu">
+                <li><a href="#" class="dropdown-item">Item-1</a></li>
+                <li><a href="#" class="dropdown-item">Item-2</a></li>
+                <li><a href="#" class="dropdown-item">Item-3</a></li>
+            </ul>
+        </div>
+        <div> 
+            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="collapse"></button>
+            <div id="demo" class="collapse">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, maiores.
+            </div>
+        </div>
+        <div>
+            <ul class="nav bg-dark fixed-top justify-content-end">
+                <li class="nav-item"><a href="#" class="nav-link text-light">First</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-light">Second</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-light">Third</a></li>
+            </ul>
+        </div>
+        <div id="section1">
+            <p class="bg-warning p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, iure.</p>
+        </div>
+        <div id="section2">
+            <p class="bg-warning p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, iure.</p>
+        </div>
+        <div id="section3">
+            <p class="bg-warning p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, iure.</p>
+        </div>
+        <div>
+            <form>
+                <input type="text" placeholder="Username" class="form-control"> <br>
+                <input type="text" placeholder="Password" class="form-control"> <br>
+                <input type="radio" class="form-check-input" name="option">Option 1
+                <input type="radio" class="form-check-input" name="option">Option 2 <br>
+                <input type="checkbox" class="form-check-input" name="option">Option 3
+                <input type="checkbox" class="form-check-input" name="option">Option 4 <br> 
+                <input type="submit">
+            </form>
+        </div>
+
+        <script>
+            let num1 = 10
+            let num2 = 2
+            
+            console.log(num1 + num2)
+            console.log(num1 - num2)
+            console.log(num1 * num2)
+            
+            var score = 95;
+
+            function calculateGrade(score) {
+            if (score >= 90) {
+                console.log("A grade");
+            } else if (score >= 80 && score <= 89) {
+                console.log("B grade");
+            } else if (score >= 70 && score <= 79) {
+                console.log("C grade");
+            } else if (score >= 60 && score <= 69) {
+                console.log("D grade");
+            } else {
+                console.log("F grade");
+            }
+            }
+
+            calculateGrade(score);
+            
+       </script>
+
+        <button id="changeTextBtn">Change Text</button>
+        <p id="displayText">Original Text</p>
+
+        <script>
+            var changeTextButton = document.getElementById('changeTextBtn');
+            var displayTextParagraph = document.getElementById('displayText');
+            changeTextButton.addEventListener('click', function() {
+            function changeText() {
+            displayTextParagraph.textContent = 'Hello, JavaScript World!';
+            }
+            changeText();
+        });
+        </script>
+
+   
+    </body>
+</html>
